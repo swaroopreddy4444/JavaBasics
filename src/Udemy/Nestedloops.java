@@ -9,7 +9,9 @@ public class Nestedloops {
 			for(int j=0;j<2;j++) {
 				int k=0;
 				do {
-					System.out.println(i+" "+j+" "+k);
+					for (int l=0;l<2;l++) {
+						System.out.println(i+" "+j+" "+k+" "+l);	
+					}
 					k++;
 				}while(k<2);
 			}		
