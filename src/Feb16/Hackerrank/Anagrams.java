@@ -2,7 +2,7 @@ package Feb16.Hackerrank;
 
 import java.util.Scanner;
 
-public class Solution1 {
+public class Anagrams {
 
 	static boolean isAnagram(String a, String b) {
 

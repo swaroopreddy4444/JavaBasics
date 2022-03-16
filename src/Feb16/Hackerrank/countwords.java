@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class Solution2 {
+public class countwords {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

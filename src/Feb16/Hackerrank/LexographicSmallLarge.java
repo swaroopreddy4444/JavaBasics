@@ -2,24 +2,22 @@ package Feb16.Hackerrank;
 
 import java.util.Scanner;
 
-public class Solution {
+public class LexographicSmallLarge {
 
     public static String getSmallestAndLargest(String s, int k) {
         String smallest = "";
         String largest = "";
         
-        smallest=largest=s.substring(0, k);
+        smallest=s.substring(0, k);
+        largest=s.substring(0, k);
         
             for(int j=0;j<s.length()-k+1;j++){
         
             if(s.substring(j,j+k).compareTo(smallest)<0)
-            {
-            smallest=s.substring(j,j+k);   
-            }
-            else 
-            {
-            largest=s.substring(j,j+k);  
-            }
+            	smallest=s.substring(j,j+k);   
+            if(s.substring(j,j+k).compareTo(largest)>0)
+            	largest=s.substring(j,j+k);  
+            
               
         }
     

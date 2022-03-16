@@ -11,7 +11,7 @@ public class Uniqueletter {
 	     {
              char ch = s.charAt(i);
              if(s.indexOf(ch)==s.lastIndexOf(ch)) 
-             {
+             { 
             	 return i+1;
              }
 	     }
