@@ -25,7 +25,7 @@ public class Anagrams {
 						
 						c=c.replace(a.charAt(i)+"", "");
 						d=d.replace(a.charAt(i)+"", "");
-						
+					
 						if(c.length()!=d.length()) {
 							break;
 						}
