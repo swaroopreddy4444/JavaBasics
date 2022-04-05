@@ -14,7 +14,7 @@ public class ExcelFileWriting {
 	public static void main(String[] args) throws IOException {
 
 		XSSFWorkbook wb=new XSSFWorkbook();
-		XSSFSheet sh1 = wb.createSheet("firstSheet");
+		XSSFSheet sh1 = wb.createSheet("Sheet1");
 		
 		XSSFRow R0= sh1.createRow(0);
 		
@@ -24,7 +24,7 @@ public class ExcelFileWriting {
 		A0.setCellValue("1 value");
 		B0.setCellValue("2 value");
 
-		File f = new File("E:\\bablu\\JavaPractice\\JavaBasics\\src\\Udemy\\ExcelPOI\\new1.xlsx");
+		File f = new File("E:\\bablu\\JavaPractice\\JavaBasics\\src\\Udemy\\HashMap.xlsx");
 		FileOutputStream fo =new FileOutputStream(f);
 		
 		wb.write(fo);
