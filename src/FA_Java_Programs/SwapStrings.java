@@ -1,3 +1,5 @@
+package FA_Java_Programs;
+
 public class SwapStrings {
     public static void main(String args[]) {
       String s1="hemanth",x="sai";
