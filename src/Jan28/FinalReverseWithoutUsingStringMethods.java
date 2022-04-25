@@ -28,7 +28,7 @@ public class FinalReverseWithoutUsingStringMethods {
         	
     	 
          }
-    	 String str1 = "Saket Saurav        is a QualityAna    list";
+    	 String str1 = "Saket Saurav        is a Quality Analyst";
     	  
          //1. Using replaceAll() Method
     	 String a[]=str1.split(" ");
