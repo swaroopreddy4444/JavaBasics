@@ -15,9 +15,11 @@ public class FindVowels {
 //				break;
 //			}
 //		}
-		
+		System.out.println("Input : "+str);
 		System.out.println(str.replaceAll("[aeiouAEIOU]","").length()!=str.length()?"vowel present":"no vowel");
 		System.out.println(-str.replaceAll("[aeiouAEIOU]","").length()+str.length());
+		System.out.println("Vowels \t    : "+str.replaceAll("[^aeiouAEIOU]",""));
+		System.out.println("Consonants  : "+str.replaceAll("[aeiouAEIOU]",""));
 			
 		}
 	
