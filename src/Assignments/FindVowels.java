@@ -18,6 +18,7 @@ public class FindVowels {
 		
 		System.out.println(str.replaceAll("[aeiouAEIOU]","").length()!=str.length()?"vowel present":"no vowel");
 		System.out.println(-str.replaceAll("[aeiouAEIOU]","").length()+str.length());
+		System.out.println(str.replaceAll("[^aeiouAEIOU]",""));
 			
 		}
 	
