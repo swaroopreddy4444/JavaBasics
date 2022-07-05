@@ -36,7 +36,6 @@ public class TxtFileReader {
 		System.out.println(sc.next());
 		
 	
-	
 	}
 	
 	
