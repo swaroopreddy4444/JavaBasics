@@ -16,6 +16,7 @@ public class SumofArray {
 		for(int i:a) {
 			System.out.print(i+"  ");
 		}
+		
 			
 		System.out.println("\n"+sum);
 		
